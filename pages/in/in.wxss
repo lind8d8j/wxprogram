@@ -1,0 +1,92 @@
+/*各类view的初始样式*/
+.input_view {
+  line-height: 90rpx;
+  color: grey;
+  /* border-bottom: 1px solid thistle;  */
+  width: 100%;
+}
+/*备注文本框样式*/
+.input_view_textarea {
+  width: 90%;
+  height: 200rpx;
+  top: 5px;
+  left: 10px;
+  padding: 5px; 
+  border: 1px solid #f2f2f2;
+}
+/*备注样式*/
+.view_area_text {
+  padding-left: 10px;
+  color: grey;
+}
+
+.input_view_textarea textarea {
+  padding: 25rpx;
+}
+/*各类文字的样式*/
+.input_text {
+  padding-left: 10px;
+  width: 15%;
+  height: 30rpx;
+  float: left;
+}
+/*录音样式*/
+.luying_ys{
+  position: relative;
+  top: 5px;
+  width: 65%;
+}
+.input_ys {
+  width: 80%;
+  height: 30rpx;
+  float: left;
+}
+/*金额输入框样式*/
+.input_ys1 {
+  width: 65%;
+  height: 60rpx;
+  float: left;
+  position: relative;
+  top: 5px;
+  color: black;
+}
+
+.data_ys {
+  color: black;
+}
+/*图片样式*/
+.images_ys {
+  position: relative;
+  bottom: -5rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+/* 完成按钮样式 */
+.submit_css {
+  width: 40%;
+  left: 50rpx;
+  float: left;
+}
+/* 清空按钮样式 */
+.reset_css {
+  width: 40%;
+  left: 100rpx;
+  float: left;
+}
+/* 完成和清空按钮的位置 */
+.button_css {
+  position: relative;
+  top: 60rpx;
+}
+/*录音完成按钮样式*/
+.luying1 {
+  left: 10px;
+}
+/*播放按钮样式*/
+.bofang1{
+  left: 28%;
+}
+/*停止播放按钮样式*/
+.luying3 {
+  left: 32%;
+} 

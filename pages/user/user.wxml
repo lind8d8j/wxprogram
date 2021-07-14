@@ -1,0 +1,100 @@
+<!--pages/uesr/user.wxml-->
+<view class="contant">
+  <view class="contant_top">
+    <view class="contant_topnew">
+      <text class="contant_top_text1"> 资产 \n </text>
+      <text class="contant_top_text2"> {{zichan}} \n </text>
+      <image src="{{avatarUrl}}" class="contant_top_image" bindtap="getUserInfoi"></image>
+      <text class="contant_username">{{nickName}}</text>
+    </view>
+  </view>
+
+  <view class="contant_bottom">
+    <view class="contant_bottom_1" >
+
+      <view class="contant_bottom_text" id='现金' bindtap='ZHtiaozhuan'>
+        <image src='{{cash_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">现金</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{cash}}</text>
+      </view>
+
+      <view class="contant_bottom_text" id='信用卡' bindtap='ZHtiaozhuan' >
+        <image src='{{business_card_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">信用卡</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{business}}</text>
+      </view>
+
+      <view class="contant_bottom_text" id='银行卡' bindtap='ZHtiaozhuan' >
+        <image src='{{banking_card_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">银行卡</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{banking_card}}</text>
+      </view>
+
+    </view>
+
+    <view class="contant_bottom_2">
+      <view class="contant_bottom_text" id='校园卡' bindtap='ZHtiaozhuan'>
+        <image src='{{credit_card_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">校园卡</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{credit_card}}</text>
+      </view>
+      <view class="contant_bottom_text" id='支付宝' bindtap='ZHtiaozhuan'>
+        <image src='{{alipay_iamge}}' class="contant_bottom_image1"></image>
+        <text class="contant_bottom_text_ys">支付宝</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{alipay}}</text>
+      </view>
+      <view class="contant_bottom_text" id='微信' bindtap='ZHtiaozhuan'>
+        <image src='{{weixinzhifu_image}}' class="contant_bottom_image2"></image>
+        <text class="contant_bottom_text_ys">微信钱包</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{weixinzhifu}}</text>
+      </view>
+      <view class="contant_bottom_text" id='余额宝' bindtap='ZHtiaozhuan'>
+        <image src='{{yuerbao_image}}' class="contant_bottom_image1"></image>
+        <text class="contant_bottom_text_ys">余额宝</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{yuerbao}}</text>
+      </view>
+    </view>
+
+    <view class="contant_bottom_3">
+      <view class="contant_bottom_text" id='花呗' bindtap='ZHtiaozhuan'>
+        <image src='{{huabei_image}}' class="contant_bottom_image1"></image>
+        <text class="contant_bottom_text_ys">花呗</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{huabei}}</text>
+      </view>
+      <view class="contant_bottom_text" id='京东白条' bindtap='ZHtiaozhuan'>
+        <image src='{{jingdong_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">京东白条</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{jingdong}}</text>
+      </view>
+      <view class="contant_bottom_text" id='其他' bindtap='ZHtiaozhuan'>
+        <image src='{{others_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">其他</text>
+        <view class="arrow"></view>
+        <text class="contant_bottom_text_ys1">{{others}}</text>
+      </view>
+    </view>
+
+    <view class='contant_bottom_4'>
+      <view class="contant_bottom_text" id='explain' bindtap='explain'>
+        <image src='{{explain_image}}' class="contant_bottom_image"></image>
+        <text class="contant_bottom_text_ys">素材说明</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="contant_bottom_text" id='about' bindtap='about'>
+        <image src='{{about_image}}' class="contant_bottom_image1"></image>
+        <text class="contant_bottom_text_ys">关于我们</text>
+        <view class="arrow"></view>
+      </view>
+    </view>
+
+  </view>
+</view>

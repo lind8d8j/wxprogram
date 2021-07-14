@@ -1,0 +1,78 @@
+page{
+ background-color:  #f2f2f2;
+}
+.Frist_part{
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  align-items: center;
+  background-color: rgb(247, 210, 142);
+}
+.Frist_part image{
+  width: 180rpx;
+  height: 180rpx;
+  margin-left: 300rpx;
+}
+.Second_part{
+  width: 100%;
+  height: 200rpx;
+  background-color:  #f5f3f3;
+}
+.Last_part{
+  width: 100%;
+  height: 600rpx;
+}
+.Next_Pay_In{
+  width: 21%;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color:  white;
+  font-size: 15px;
+  position: relative;
+  top: 30rpx;
+  right: -230px;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+.display_css{
+   display:none;
+    /* 下拉框的宽度， */
+    width: 21%;
+    /* 下拉框的最大高度 */
+    max-height: 750rpx;
+    overflow-y: hidden;
+    margin-left: 230px; 
+    font-size: 14px;
+    padding: 0 0 0 20rpx;
+    line-height:50rpx;
+    position: relative;
+    top: 32rpx;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background: #fff;
+}
+.diaplay{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.Next_Pay_In image{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  right: 5rpx;
+}
+.C_detail{
+  position: relative;
+  top: 40px;
+  left: 50px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid black;
+   background-color: white;
+  font-size: 15px;
+}

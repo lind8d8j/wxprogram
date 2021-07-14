@@ -1,0 +1,19 @@
+<view class="quanju">
+  <view class="Frist_part">
+     <image src='{{Imaurl1}}'></image>
+  </view>
+  <view class="Second_part">
+    <view class='del_css'>
+      <text class="C_detail" bindtap="Checkdetail">查看详情</text>
+    </view>
+    <view bindtap='changebiaozhi'  class="Next_Pay_In">
+      <text>再记一笔</text>
+      <image src='{{Imaurl}}'></image>
+    </view>
+    <view wx:for-items="{{contant}}" class=' display_css {{showne?"diaplay":"hidden"}}' wx:for-index='_id'>
+      <view id='{{_id}}' bindtap='tiaozhuan'>{{item.display}}</view>
+    </view>
+  </view>
+  <view class="Last_part">
+  </view>
+</view>

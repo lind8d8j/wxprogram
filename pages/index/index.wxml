@@ -1,0 +1,105 @@
+<view class='zong'>
+  <view class='item_zong'>
+    <view class='color'>
+      <view class='yangs'></view>
+      <view class='yangs_pay'><text>支出</text></view>
+    </view>
+    <view class='item' bindtap='gotopay' id='1' hover-class='changebg'>
+      <image src='{{image1}}' class='image'></image>
+      <view>
+        <text>娱乐</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='2' hover-class='changebg'>
+      <image src='{{image2}}' class='image'></image>
+      <view>
+        <text>购物</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='3' hover-class='changebg'>
+      <image src='{{image3}}' class='image'></image>
+      <view>
+        <text>学习</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='4' hover-class='changebg'>
+      <image src='{{image4}}' class='image'></image>
+      <view>
+        <text>交通</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='5' hover-class='changebg'>
+      <image src='{{image5}}' class='image'></image>
+      <view>
+        <text>寝室</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='6' hover-class='changebg'>
+      <image src='{{image6}}' class='image'></image>
+      <view>
+        <text>食品</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='7' hover-class='changebg'>
+      <image src='{{image7}}' class='image'></image>
+      <view>
+        <text>通讯</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotopay' id='8' hover-class='changebg'>
+      <image src='{{image8}}' class='image'></image>
+      <view>
+        <text>其他</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='item_zong1'>
+      <view class='color'>
+      <view class='yangs'></view>
+      <view class='yangs_pay'><text>收入</text></view>
+    </view>
+    <view class='item' bindtap='gotoin' id='9' hover-class='changebg'>
+      <image src='{{image9}}' class='image'></image>
+      <view>
+        <text>生活费</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotoin' id='10' hover-class='changebg'>
+      <image src='{{image10}}' class='image'></image>
+      <view>
+        <text>奖学金</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotoin' id='11' hover-class='changebg'>
+      <image src='{{image11}}' class='image'></image>
+      <view>
+        <text>助学金</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotoin' id='12' hover-class='changebg'>
+      <image src='{{image12}}' class='image'></image>
+      <view>
+        <text>兼职收入</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotoin' id='13' hover-class='changebg'>
+      <image src='{{image13}}' class='image'></image>
+      <view>
+        <text>意外收入</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotoin' id='14' hover-class='changebg'>
+      <image src='{{image14}}' class='image'></image>
+      <view>
+        <text>其他收入</text>
+      </view>
+    </view>
+    <view class='item' bindtap='gotoin' id='15' hover-class='changebg'>
+      <image src='{{image15}}' class='image'></image>
+      <view>
+        <text>理财收入</text>
+      </view>
+    </view>
+  </view>
+</view>

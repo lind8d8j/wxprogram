@@ -1,0 +1,17 @@
+<view class='weizhi'>
+  <view>
+    <text>你好，欢迎来到我的小程序</text>
+  </view>
+  <view>
+    <text>本小程序由我一人所写，有很多不足的地方</text>
+  </view>
+  <view>
+    <text>如有建议</text>
+  </view>
+  <view>
+    <text>可以发送意见至：1341792232@qq.com</text>
+  </view>
+  <view>
+    <text>欢迎大家的各种宝贵建议</text>
+  </view>
+</view>

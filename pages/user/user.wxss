@@ -1,0 +1,135 @@
+/* pages/uesr/user.wxss */
+body{
+ background-color: #F2F2F2;
+}
+.contant {
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 100%;
+  }
+.contant_top{
+  background-color:   #F2F2F2;
+  width: 100%;
+  height: 300rpx;
+}
+.contant_topnew{
+  background-color:  white;
+  width: 95%;
+  height: 300rpx;
+  border-radius: 10px;
+  top: 10px;
+  left: 7px;
+  border: 1px solid rgb(226, 217, 217);
+  position: relative;
+}
+.background_c{
+  background-color: red;
+}
+.contant_bottom{
+  background-color:   #F2F2F2;
+  width: 100%;
+  height: 60%;
+  position: relative;
+  top: 55rpx;
+}
+.contant_bottom_1{
+  width: 100%;
+  height: 326rpx;
+  margin: 0rpx 0rpx 10rpx 0rpx;
+}
+.contant_bottom_2{
+  width: 100%;
+  height: 430rpx;
+  margin: 0rpx 0rpx 10rpx 0rpx;
+}
+.contant_bottom_3{
+  background-color: #F2F2F2;
+  width: 100%;
+  height: 330rpx;
+  margin: 0rpx 0rpx 8rpx 0rpx;
+}
+.contant_bottom_4{
+  width: 100%;
+   height: 200rpx;
+    margin: 0rpx 0rpx 35rpx 0rpx;
+}
+.contant_bottom_text{
+  background-color: white;
+  width: 100%;
+  height: 100rpx;
+  margin-bottom: 5rpx;
+  position: relative;
+}
+.contant_bottom_text_ys{
+ position: absolute;
+ top: 26rpx;
+ left: 100rpx;
+ color: black;
+ }
+.contant_bottom_text_ys1{
+ position: absolute;
+ top: 26rpx;
+ right: 100rpx;
+ color:  black;
+}
+.contant_bottom_image{
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 60rpx;
+  height: 55rpx;
+}
+.contant_bottom_image1{
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 65rpx;
+  height: 65rpx;
+}
+/* 微信图标 */
+.contant_bottom_image2{  
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 72rpx;
+  height: 72rpx;
+}
+.contant_top_text1{
+  position: absolute;
+  color: black;
+  left: 50rpx;
+  top: 60rpx;
+ 
+}
+.contant_top_text2{
+  position: absolute;
+  color:black;
+  left: 50rpx;
+  top: 100rpx;
+  font-size: 70rpx;
+}
+.contant_top_image{
+  position: absolute;
+  bottom: 100rpx;
+  right: 30rpx;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  border: 1px solid snow;
+}
+.contant_username{
+  position: absolute;
+  bottom: 35rpx;
+  right: 30rpx;
+  color: black;
+}
+.arrow {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid rgb(190, 185, 185);
+  border-right: 2px solid rgb(190, 185, 185);
+  position: absolute;
+  right: 40rpx;
+  transform: rotate(45deg);
+  margin-top: 40rpx;
+}

@@ -1,0 +1,263 @@
+/* 页面背景色 */
+
+page {
+  background-color: #f2f2f2;
+}
+
+/* 顶部样式 */
+
+.topclass {
+  width: 100%;
+  height: 250rpx;
+  /* background-image: url('https://636c-cloudtest-812248-1256714704.tcb.qcloud.la/images/eb256b94823517ef725e2f599f55203b.jpg?sign=981a72648fc7a314f43708aa6d3d84fd&t=1556167577'); */
+  background-image: url('https://636c-cloudtest-812248-1256714704.tcb.qcloud.la/images/489226f96a3b25b3540435b6407fb4e7.jpg?sign=5d9abb90fadbfa3c545352f154bb442e&t=1556160756');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* 中部样式 */
+
+.mid_class {
+  width: 100%;
+  /* border: 1px solid #666; */
+  height: 100rpx;
+}
+
+/* 循环view的样式 */
+
+.container {
+  width: 90%;
+  background-color: white;
+  margin: 30rpx;
+  border-radius: 15rpx;
+}
+
+/* rmb的样式 */
+
+.item_rmbcss {
+  padding-left: 38rpx;
+}
+
+/* 分类的样式 */
+
+.item_rangcss {
+  padding-left: 60rpx;
+}
+
+.zongjiner_css {
+  margin-left: 65rpx;
+  color: rgb(233, 233, 233);
+  font-size: 10px;
+}
+
+.paycss {
+  width: 42%;
+  color: rgb(241, 241, 241);
+  margin-left: 86rpx;
+  font-size: 10px;
+  float: left;
+}
+
+.in_css {
+  width: 45%;
+  color: rgb(233, 233, 233);
+  float: left;
+  font-size: 10px;
+}
+
+/* 顶部总金额颜色样式 */
+
+.zongjiner_css_text {
+  color: white;
+  font-size: 16px;
+}
+
+/* 顶部支出颜色样式 */
+
+.paycss_text {
+  color: white;
+  font-size: 16px;
+}
+
+/* 顶部收入颜色样式 */
+
+.in_css_text {
+  color: white;
+  font-size: 16px;
+}
+
+/* 图片的样式 */
+
+.imagescss {
+  padding: 6px 0px 10px 6%;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+/* 时间和日期的样式 */
+
+.t_d_ys {
+  padding: 10px 0px 10px 6%;
+}
+
+/*备注的样式*/
+
+.remarks_ys {
+  padding: 5px 6%;
+  line-height: 50rpx;
+}
+
+/*类型的样式*/
+
+.account_ys {
+  padding-left: 6%;
+}
+
+/*按钮的样式*/
+
+.anniu_ys {
+  padding-left: 6%;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+/*停止播放按钮样式*/
+
+.bofang2 {
+  left: 8px;
+}
+
+/*修改按钮样式*/
+
+/*删除按钮样式*/
+
+.delete {
+  left: 8px;
+}
+
+/* 图表支出分析样式 */
+
+.chart_analyse {
+  position: relative;
+  left: 8px;
+  top: 20px;
+}
+
+/* 图表收入分析样式 */
+
+.chart_analyse1 {
+  left: 34%;
+  top: 20px;
+}
+
+/* 下拉列表的样式 */
+
+.nav-son {
+  position: relative;
+  /* 让下拉提示信息永远放于下拉内容的上面 */
+  z-index: 99;
+  border-bottom: 1px solid #d1d3d4;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 15rpx;
+  height: 130rpx;
+}
+
+/* 下拉列表 下三角的样式 */
+
+.nav-son image {
+  position: absolute;
+  right: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 下拉框的样式 */
+
+.temp {
+  /* 下拉框的最大高度 */
+  max-height: 1000rpx;
+  overflow: hidden; /* 是否对内容的上/下边缘进行裁剪 */
+  padding: 0 0 0 20rpx; /*下拉框内容右移20rpx *//* line-height: 80rpx;  每一行的高度 */
+  background: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 下拉框内容的样式 */
+
+.temp view {
+  /* border-bottom: 1px solid #d1d3d4; */
+  font-size: 14px;
+  color: #666;
+}
+
+/* 下拉动画 */
+
+/* @keyframes Css3 新标签，循环动画 */
+
+/* @keyframes 使 div 元素匀速向下移动：*/
+
+@keyframes slidown {
+  from {
+    transform: translateX(-1000%); /*	定义转换，只是用 Y 轴的值。*/
+  }
+
+  to {
+    transform: translateX(0%); /*	translateY(0%)*/
+  }
+}
+
+.slidown {
+  display: block;
+  /* 	规定需要绑定到选择器的 keyframe 名称。规定完成动画所花费的时间，以秒或毫秒计。
+    规定动画的速度曲线。规定动画应该播放的次数。*//*	ease-in -> 动画以低速开始 */
+  animation: slidown 0.05s ease-in both;
+}
+
+/* 上拉动画 */
+
+@keyframes slidup {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-1000%);
+  }
+}
+
+.slidup {
+  display: block;
+  /* 	规定需要绑定到选择器的 keyframe 名称。规定完成动画所花费的时间，以秒或毫秒计。
+    规定动画的速度曲线。规定动画应该播放的次数。*//*	ease-in -> 动画以低速开始 */
+  animation: slidup 0.05s ease-in both;
+  height: 0px; /* 列表向上收回时，列表框和下列列表之间的高度 */
+}
+
+.notdata_view {
+  position: absolute;
+  width: 100%;
+  height: 360rpx;
+  bottom: 200rpx;
+}
+
+.notdata_view image {
+  position: relative;
+  top: 10rpx;
+  left: 265rpx;
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.notdata_view .text_css {
+  position: absolute;
+  color: rgb(1, 161, 1);
+  left: 280rpx;
+  bottom: 30rpx;
+}

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/diaplay/diaplay",
+    "pages/user/user",
+    "pages/pay/pay",
+    "pages/in/in",
+    "pages/success/success",
+    "pages/ZHtiaozhuan/ZHtiaozhuan",
+    "pages/echarts/echarts",
+    "pages/test3/test3",
+    "pages/explain/explain",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "账本",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shouey.png",
+        "selectedIconPath": "images/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/diaplay/diaplay",
+        "iconPath": "images/display.png",
+        "selectedIconPath": "images/display1.png",
+        "text": "收支记录"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me1.png",
+        "text": "我的中心"
+      }
+    ]
+  }
+}

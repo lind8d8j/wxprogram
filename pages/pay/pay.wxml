@@ -1,0 +1,75 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="input_view">
+    <text class="input_text">日期：</text>
+    <view class="section">
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+        <view class="picker" class="data_ys" name="date">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="input_view">
+    <text class="input_text">时间：</text>
+    <view class="section">
+      <picker mode="time" value="{{time}}" bindchange="bindTimeChange">
+        <view class="picker" class="data_ys" name="time">
+          {{time}}
+        </view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="input_view">
+    <text class="input_text">账户：</text>
+    <view class="tui-picker-content">
+      <picker bindchange="changeAccount" value="{{accountIndex}}" range="{{accountList}}">
+        <view class="tui-picker-detail" class="data_ys" name="account">{{accountList[accountIndex]}}</view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="input_view">
+    <text class="input_text">类别：</text>
+    <view class="tui-picker-content">
+      <picker bindchange="changeRange" value="{{rangeIndex}}" range="{{rangeList}}">
+        <view class="tui-picker-detail" class="data_ys" name="rangename">{{rangeList[rangeIndex]}}</view>
+      </picker>
+    </view>
+  </view>
+
+  <view class="input_view">
+    <text class="input_text">金额：</text>
+    <input type="text" class="input_ys1" name="rmb" focus='true' value="{{rmb}}"></input>
+    <text class="input_text1">RMB</text>
+  </view>
+
+  <view class="input_view">
+    <text class="input_text">图片：</text>
+    <image src="{{imageurl}}" class="images_ys" name="photo" bindtap="upload"></image>
+  </view>
+
+  <view class="input_view">
+    <text class="input_text">录音：</text>
+    <view class='luying_ys'>
+      <button size='mini' bindtap='start' class='button_luying1'>录音</button>
+      <button size='mini' class='luying1' bindtap="stop" type='primary'>录音完成</button>
+      <audio src="{{audio}}" id="myAudio"></audio>
+      <button size='mini' class='bofang1' bindtap="audioPlay">播放</button>
+      <button size='mini' class='luying3' bindtap="audioPause" type='primary'>停止播放</button>
+    </view>
+  </view>
+
+  <view class="">
+    <text class='view_area_text'>备注：</text>
+    <textarea style="heigth: 1em" adjust-position="true" class="input_view_textarea" name="remarks" value="{{remarks}}"></textarea>
+  </view>
+
+
+  <view class='button_css'>
+    <button form-type="submit" class='submit_css'>完成</button>
+    <button form-type="reset" type='primary' class='reset_css'>清空</button>
+  </view>
+
+</form>

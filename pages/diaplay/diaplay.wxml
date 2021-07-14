@@ -1,0 +1,60 @@
+<view class="zongti">
+
+  <view class="topclass">
+    <view class="zongjiner_css"> 总金额 :
+      <text class="zongjiner_css_text">{{zongjiner}}</text>
+    </view>
+    <view class="paycss"> 支出 :
+      <text class="paycss_text">{{zongpay}}</text>
+    </view>
+    <view class="in_css"> 收入 :
+      <text class="in_css_text">{{zongin}}</text>
+    </view>
+  </view>
+
+  <view class='mid_class'>
+    <button class='chart_analyse' size='mini' bindtap='echarts' type='default'> 图表支出分析 </button>
+    <button class='chart_analyse1' size='mini' bindtap='echarts1' type='primary'> 图表收入分析 </button>
+  </view>
+
+  <view class='notdata_view'>
+    <image src='{{notdataimage}}'></image>
+    <text class='text_css'>{{notdatatext}}</text>
+  </view>
+
+  <view wx:for-items="{{topics}}" wx:for-index="_id" class="container" id='{{_id}}' wx:key="{{item.range}}">
+
+    <view id='{{_id}}' bindtap="toggleBtn" class="nav-son">
+      <image src='{{imgUrl}}'></image>
+      <view>
+        <view class='box'>
+          <text class="item_rangcss"> {{item.range}} </text>
+          <text class="item_rmbcss">{{item.rmb}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class=' temp {{uhide == _id?"":"hidden"}}'>
+      <view class='t_d_ys'>
+        {{item.date}} {{item.time}} 
+      </view>
+      <view class='account_ys'> {{item.account}} </view>
+      <view class='remarks_ys'> {{item.remarks}}</view>
+      <view wx:if="{{item.tempFilePaths}}">
+        <image class="imagescss" src="{{item.tempFilePaths}}" bindtap='previewImage' id="{{_id}}"></image>
+      </view>
+
+
+      <view class='anniu_ys'>
+        <button size='mini' class='bofang1' bindtap="audioPlay" id="{{_id}}">播放</button>
+        <button size='mini' class='bofang2' bindtap="audioPause" type='primary' id="{{_id}}">暂停播放</button>
+
+        <button bindtap="updata" id="{{_id}}" size='mini' >修改</button>
+        <button bindtap="deletee" id="{{_id}}" size='mini' type='primary' class='delete'>删除记录</button>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,14 @@
+<view class='weizhi'>
+  <view>
+    <text>小程序中所用图片来源于网络</text>
+  </view>
+  <view>
+    <text>如有侵权，请联系作者</text>
+  </view>
+  <view>
+    <text>qq邮箱：1341792232@qq.com</text>
+  </view>
+  <view>
+    <text>侵必删！</text>
+  </view>
+</view>
