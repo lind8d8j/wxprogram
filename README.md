@@ -4,19 +4,27 @@
 # 图片介绍
 
 首页
+<br/>
 
-![首页](https://user-images.githubusercontent.com/48707797/125602559-a03a7181-101f-4747-8e92-52970a9d5883.jpg)
+<img src="https://user-images.githubusercontent.com/48707797/125602559-a03a7181-101f-4747-8e92-52970a9d5883.jpg" width="500" height="1000">
+<br/>
 
 今日
+<br/>
 
-![今日](https://user-images.githubusercontent.com/48707797/125602740-b318adc0-3820-424c-9766-acdec857be75.jpg)
+<img src="https://user-images.githubusercontent.com/48707797/125602740-b318adc0-3820-424c-9766-acdec857be75.jpg" width="500" height="1000">
+<br/>
 
 收支图表
+<br/>
 
-![收支图标](https://user-images.githubusercontent.com/48707797/125602572-2206ff9c-e05e-4240-9be0-2b3f49362469.jpg)
+<img src="https://user-images.githubusercontent.com/48707797/125602572-2206ff9c-e05e-4240-9be0-2b3f49362469.jpg" width="500" height="1000">
+<br/>
 
 个人账户
+<br/>
 
-![账户汇总](https://user-images.githubusercontent.com/48707797/125602581-32a3de58-d63d-45b0-8ae2-62892bc2ced0.jpg)
+<img src="https://user-images.githubusercontent.com/48707797/125602581-32a3de58-d63d-45b0-8ae2-62892bc2ced0.jpg" width="500" height="1000">
+<br/>
 
 
